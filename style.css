@@ -1,0 +1,83 @@
+html {
+    background: url("http://buzzgfx.com/wp-content/uploads/2014/06/main-background1.jpg") scroll 0 0 transparent;
+}
+#menu {
+    float: right;	
+}
+#menu  li {
+    float: left;
+		list-style-type: none;
+}
+#menu li a {
+display: block;
+    height: 2em;
+    padding: 0 1em;
+    text-decoration: none;
+	color: white;
+	text-align: center;
+}
+h1 {
+color: white;
+}
+
+div li a {
+font-size: 2em;
+font-color: white;
+text-decoration: none;
+}
+
+#about  {
+width: 90%;
+padding: 9px;
+margin: 0px;
+text-align: left;
+background-color: rgba(255, 255, 255, 0.39);
+}
+#about a{
+font-size:2em;
+list-style-type: none;
+}
+#production a{
+font-size:2em;
+list-style-type: none;
+}
+#quality a{
+font-size:2em;
+list-style-type: none;
+}
+#contact a{
+font-size:2em;
+list-style-type: none;
+}
+#form  a{
+font-size:1.2em;
+list-style-type: none;
+}
+#production {
+width: 90%;
+padding: 9px;
+margin: 0px;
+text-align: left;
+background-color: rgba(255, 255, 255, 0.39);
+}
+#quality {
+width: 90%;
+padding: 9px;
+margin: 0px;
+text-align: left;
+background-color: rgba(255, 255, 255, 0.39);
+}
+#contact {
+width: 90%;
+padding: 9px;
+margin: 0px;
+text-align: left;
+background-color: rgba(255, 255, 255, 0.39);
+}
+#form {
+width: 90%;
+padding: 9px;
+margin: 0px;
+text-align: left;
+background-color: rgba(255, 255, 255, 0.39);
+}
