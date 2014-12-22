@@ -1,8 +1,15 @@
-html {
-    background: url("http://buzzgfx.com/wp-content/uploads/2014/06/main-background1.jpg") scroll 0 0 transparent;
+html { 
+  background: url(http://buzzgfx.com/wp-content/uploads/2014/06/main-background1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #menu {
     float: right;	
+    background-color: rgba(255, 214, 214, 0.28);
+    border-radius: 0 24px;
+    padding: 8px 5px 5px 5px;
 }
 #menu  li {
     float: left;
@@ -75,9 +82,25 @@ text-align: left;
 background-color: rgba(255, 255, 255, 0.39);
 }
 #form {
-width: 90%;
-padding: 9px;
-margin: 0px;
-text-align: left;
-background-color: rgba(255, 255, 255, 0.39);
+    width: 90%;
+    padding: 9px;
+    margin: 0px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+#footer  {
+    padding: 0 1Em;
+    font-size 1Em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#footer a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 1.2Em;
 }
